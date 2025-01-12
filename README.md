@@ -1,4 +1,5 @@
 **Gestor de Inventario - WASP_Inventory**
+
 Este proyecto es una API construida con ASP.NET Core para gestionar un inventario. Está conectada a una base de datos SQL Server y expone endpoints para realizar operaciones CRUD sobre las entidades User, Role, Product, y Category.
 
 **Requisitos**
