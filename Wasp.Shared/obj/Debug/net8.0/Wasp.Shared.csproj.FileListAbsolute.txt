@@ -9,3 +9,4 @@ C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Shared\obj\Debug\net8.0\Wasp.S
 C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Shared\obj\Debug\net8.0\refint\Wasp.Shared.dll
 C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Shared\obj\Debug\net8.0\Wasp.Shared.pdb
 C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Shared\obj\Debug\net8.0\ref\Wasp.Shared.dll
+C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Shared\obj\Debug\net8.0\Wasp.Shared.sourcelink.json

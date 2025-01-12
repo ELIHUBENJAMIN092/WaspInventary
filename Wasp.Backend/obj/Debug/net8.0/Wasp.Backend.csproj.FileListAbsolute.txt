@@ -172,3 +172,4 @@ C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Backend\obj\Debug\net8.0\refin
 C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Backend\obj\Debug\net8.0\Wasp.Backend.pdb
 C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Backend\obj\Debug\net8.0\Wasp.Backend.genruntimeconfig.cache
 C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Backend\obj\Debug\net8.0\ref\Wasp.Backend.dll
+C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Backend\obj\Debug\net8.0\Wasp.Backend.sourcelink.json

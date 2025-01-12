@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wasp.Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+819898a95b0a4690feae5d419839e7864294d440")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wasp.Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wasp.Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

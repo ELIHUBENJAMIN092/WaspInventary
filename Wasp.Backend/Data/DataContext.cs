@@ -12,6 +12,7 @@ namespace Wasp.Backend.Data
         }
 
         public DbSet<Rol> roles { get; set; }
+        public DbSet<User> users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
