@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "K7mva+lflbfRmAFj4O6ur15G0L5mpEDXw8gyU1WiNC4=",
+  "Source": "Wasp.Backend",
+  "BasePath": "_content/Wasp.Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

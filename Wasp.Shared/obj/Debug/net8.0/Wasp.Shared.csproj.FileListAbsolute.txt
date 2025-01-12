@@ -1,0 +1,11 @@
+C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Shared\bin\Debug\net8.0\Wasp.Shared.deps.json
+C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Shared\bin\Debug\net8.0\Wasp.Shared.dll
+C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Shared\bin\Debug\net8.0\Wasp.Shared.pdb
+C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Shared\obj\Debug\net8.0\Wasp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Shared\obj\Debug\net8.0\Wasp.Shared.AssemblyInfoInputs.cache
+C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Shared\obj\Debug\net8.0\Wasp.Shared.AssemblyInfo.cs
+C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Shared\obj\Debug\net8.0\Wasp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Shared\obj\Debug\net8.0\Wasp.Shared.dll
+C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Shared\obj\Debug\net8.0\refint\Wasp.Shared.dll
+C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Shared\obj\Debug\net8.0\Wasp.Shared.pdb
+C:\Users\BENJA\OneDrive\Escritorio\Wasp\Wasp\Wasp.Shared\obj\Debug\net8.0\ref\Wasp.Shared.dll
