@@ -1,60 +1,42 @@
-**API de Gestión de Inventarios**
-- **Descripción:**
-Esta API proporciona un conjunto de endpoints para gestionar inventarios en una empresa. Permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre productos, usuarios, categorías, y reportes, además de gestionar el control del stock en tiempo real.
+**Gestor de Inventario - WASP_Inventory**
+Este proyecto es una API construida con ASP.NET Core para gestionar un inventario. Está conectada a una base de datos SQL Server y expone endpoints para realizar operaciones CRUD sobre las entidades User, Role, Product, y Category.
 
-- **Características:**
-Gestión de productos: creación, lectura, actualización y eliminación. Control de stock: seguimiento en tiempo real de las existencias. Gestión de usuarios: autenticación y autorización. Generación de reportes sobre movimientos de inventarios. Documentación interactiva mediante Swagger.
+**Requisitos**
+- Visual Studio 2022 o superior
+- .NET SDK 6.0 o superior
+- SQL Server (puede ser local o en la nube)
+- Conocimiento básico de C# y Entity Framework Core
+  
+**Organización del Proyecto**
 
-**Instalación**
+**1. Creación del Proyecto**
+La API se construyó utilizando el tipo de proyecto ASP.NET Core Web API en Visual Studio 2022, con el marco de trabajo .NET 8.0 o superior. El objetivo es ofrecer una plataforma para gestionar un inventario de productos mediante la interacción con las entidades de usuario, roles, productos y categorías.
 
-Requisitos previos
+**2. Configuración de la Conexión a la Base de Datos**
+Entity Framework Core se utiliza para interactuar con la base de datos. Se configura mediante el paquete Microsoft.EntityFrameworkCore.SqlServer para facilitar la comunicación con SQL Server.
+La cadena de conexión se almacena en el archivo appsettings.json, donde se especifica el servidor y la base de datos a utilizar.
+Un archivo DbContext gestiona la interacción con la base de datos, exponiendo las entidades como conjuntos de datos (DbSet), tales como Users, Roles, Products y Categories.
 
-Tener instalado:
+**3. Controladores de la API**
+Los controladores son responsables de manejar las solicitudes HTTP y realizar las operaciones CRUD sobre las entidades:
 
-Visual Studio 2022
+- UsersController: Permite gestionar los usuarios del sistema. Implementa los métodos GET para obtener una lista de usuarios y POST para crear nuevos usuarios.
+- RolesController, ProductsController, CategoriesController: Similar a UsersController, estos controladores permiten gestionar roles, productos y categorías, respectivamente, proporcionando endpoints para realizar operaciones CRUD.
+  
+**4. CORS (Cross-Origin Resource Sharing)**
+Para consumir la API desde un navegador en un dominio diferente, es necesario habilitar CORS (Cross-Origin Resource Sharing). Esto se realiza configurando una política de CORS en Program.cs, permitiendo que cualquier origen acceda a los recursos de la API.
 
-.NET 6.0 o superior.
+**5. Ejecución de la API**
+Al ejecutar el proyecto en Visual Studio, la API estará disponible en una URL local, como http://localhost:5000 (esta URL puede variar dependiendo de la configuración del proyecto). Desde allí, los clientes pueden interactuar con la API para realizar operaciones sobre el inventario.
 
-SQL Server.
+**Consumo de la API**
+La API puede ser consumida mediante un cliente web. Para facilitar el acceso, se puede crear una página HTML con JavaScript que utilice el método fetch para realizar solicitudes HTTP a la API y mostrar los resultados en el navegador.
 
-Endpoints principales
+El cliente web puede hacer solicitudes GET a los endpoints de la API para obtener datos sobre usuarios, productos, roles, etc.
+Los datos obtenidos desde la API pueden ser presentados dinámicamente en la página web, facilitando la interacción con el inventario.
 
-Autenticación
+**Recursos:**
 
-POST /api/auth/login: Iniciar sesión.
-
-Productos
-
-GET /api/products: Listar todos los productos.
-
-GET /api/products/{id}: Obtener detalles de un producto.
-
-POST /api/products: Crear un nuevo producto.
-
-PUT /api/products/{id}: Actualizar un producto existente.
-
-DELETE /api/products/{id}: Eliminar un producto.
-
-Usuarios
-
-GET /api/users: Listar todos los usuarios.
-
-POST /api/users: Crear un nuevo usuario.
-
-DELETE /api/users: Eliminar un nuevo usuario.
-
-Reportes
-
-GET /api/reports/stock: Generar un reporte de inventario.
-
-**Tecnologías utilizadas**
-
-Lenguaje: C#
-
-Framework: ASP.NET Core
-
-Base de datos: SQL Server
-
-ORM: Entity Framework Core
-
-Documentación: Swagger
+- Documentación oficial de ASP.NET Core
+- Entity Framework Core
+- CORS en ASP.NET Core
