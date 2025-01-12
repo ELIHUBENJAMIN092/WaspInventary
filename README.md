@@ -4,7 +4,7 @@ Este proyecto es una API construida con ASP.NET Core para gestionar un inventari
 
 **Requisitos**
 - Visual Studio 2022 o superior
-- .NET SDK 6.0 o superior
+- .NET SDK 8.0 o superior
 - SQL Server (puede ser local o en la nube)
 - Conocimiento básico de C# y Entity Framework Core
   
